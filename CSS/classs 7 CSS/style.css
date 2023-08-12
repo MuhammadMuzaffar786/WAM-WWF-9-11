@@ -1,0 +1,22 @@
+h1, p {
+    color: red;
+}
+
+.text {
+    color: brown;
+}
+
+#school{
+    color: chartreuse;
+}
+
+.list>li  {
+    color: blue;
+}
+.text span{
+    color: pink;
+}   
+
+.heading+p {
+    color: green;
+}

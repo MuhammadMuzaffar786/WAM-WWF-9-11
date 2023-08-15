@@ -1,0 +1,12 @@
+.post> h1{
+    color: blue;
+    font-family: italic;
+    font-size: 60px;
+}
+
+.post p{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}

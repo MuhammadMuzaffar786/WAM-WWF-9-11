@@ -1,0 +1,46 @@
+@font-face {
+    font-family:"poppins" ;
+    src: url(fonts/Poppins-BlackItalic.ttf);
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 200%;
+    font-family: poppins;
+    color: black;
+    
+}
+h1:hover{
+    text-shadow: 2px 2px 2px orange ;
+}
+
+
+h1>span{
+    font-size: 50px;
+   
+}
+
+.box {
+    background-color: orange;
+    width: 300px;
+    height: 500px;
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: justify;
+    vertical-align: bottom;
+    text-indent: 50px;
+  } 
+  p::first-letter {
+    color: green;
+  }
+  p::first-line {
+    color: blueviolet;
+  }
+input:focus {
+    background-color: rgb(190, 96, 7);
+}
